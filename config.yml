@@ -1,5 +1,5 @@
 baseURL: "https://pascalmichaillat.org/hugo-website/" 
-title: Moritz-Maria von Igelfeld
+title: Duong Mai (Eric)
 theme: PaperMod
 
 enableInlineShortcodes: true
@@ -29,13 +29,13 @@ menu:
           weight: 6
 
 params:
-    description: "This website hosts Moritz-Maria von Igelfeld's research papers, books, course materials, data, curriculum vitae, and contact information."
-    author: Moritz-Maria von Igelfeld
+    description: "This website hosts Duong Mai's research papers, curriculum vitae, blogs, updates and contact information."
+    author: Duong Mai (Eric)
     # googleAnalyticsID: "G-XXXXX"
     DateFormat: "January 2006"
     defaultTheme: light
     hideFooter: false
-    disableThemeToggle: true
+    disableThemeToggle: false
     ShowShareButtons: false
     ShowReadingTime: false
     disableSpecial1stPost: true
@@ -54,20 +54,27 @@ params:
     math: true
     profileMode:
           enabled: true
-          title: Professor Dr von Igelfeld
-          subtitle: "I am a Professor in the Institute of Romance Philology at the University of Regensburg, Germany. My research focuses on Portuguese irregular verbs. I was a doctoral student of Professor Dr Dieter Vogelsang in Munich, and later a second assistant of Professor Walter Schoeffler-Henschell at the University of Wiesbaden."
-          imageUrl: "picture.jpeg"
+          title: Duong Mai (Eric)
+          subtitle: "<i>안녕하세요, Je m'appelle Duong (Eric), よろしくお願いします, thân chào, and that's how my random multilingual introduction goes :D </i>
+                    <br><br>
+                    I'm a <i>Computer Science</i> senior at the University of South Florida (USF). Our preprint <i>**Can IRMv1 overcome shortcut learning?**</i> on the extended validation of the <i>Invariant Risk Minimization</i> framework (Arjovsky et. al., 2019) is available <u>[here](https://drive.google.com/file/d/1MqkO3hxQYccvfM8dtLiB9rCYjNl8SAho/view?usp=sharing)</u>. I'd love to hear any feedbacks via my contacts below :)
+                    <br><br>
+                    My research interests are in <b>Computer Vision</b>, <b>Medical Image Analysis</b>, and <b>Healthcare</b>, particularly <i>Out-of-Distribution Domain Generalization in natural/medical imaging </i> and <i>[Multimodal Neonatal Pain Assessment](https://rpal.cse.usf.edu/project_neonatal_pain/)</i>. I'm a Student Researcher under the supervision of Dr. **[Lawrence Hall](https://www.usf.edu/ai-cybersecurity-computing/people/faculty/hall-lawrence.aspx)** (USF) and Dr. **[Yu Sun](https://cse.usf.edu/~yusun/)** (USF). I also contribute to <i>Moffitt AI Interface for Cancer Research (MAI-CARE)</i> with my supervisors, Dr. **[El Naqa](https://lab.moffitt.org/elnaqa/dr-el-naqa/)** and **[Naveena Gorre](https://lab.moffitt.org/elnaqa/lab-members/naveena-gorre-ms-news/)**, from Moffitt Cancer Center, Tampa. 
+                    <br><br>
+                    <i>p/s: Guess which language (maybe more than one) I'm actually fluent in?</i>"
+          # subtitle: "I am a Professor in the Institute of Romance Philology at the University of Regensburg, Germany. My research focuses on Portuguese irregular verbs. I was a doctoral student of Professor Dr Dieter Vogelsang in Munich, and later a second assistant of Professor Walter Schoeffler-Henschell at the University of Wiesbaden."
+          imageUrl: "avatar.jpg"
           imageWidth: 160
           imageHeight: 160
           buttons:
             - name: Papers
               url: papers/
-            - name: Data
-              url: data/
-            - name: Books
-              url: books/
-            - name: Courses
-              url: courses/
+            # - name: Data
+            #   url: data/
+            # - name: Books
+            #   url: books/
+            # - name: Courses
+            #   url: courses/
             - name: Tags
               url: tags/
             - name: Archive
@@ -79,33 +86,22 @@ params:
         - name: CV
           url: cv.pdf
         - name: Email
-          url: mailto:igelfeld@regensburg.edu
-        - name: Zoom
-          url: https://www.zoom.us/my/igelfeld
-        - name: Location
-          url: location/
+          url: mailto:mai247@usf.edu
+        - name: GitHub
+          url: https://github.com/Duongmai127
+        - name: X
+          url: https://x.com/duongmai127
+        - name: LinkedIn
+          url: https://www.linkedin.com/in/duongmai127/
         - name: Office Hours
           url: officehours/
-        - name: Google Scholar
-          url: https://scholar.google.com/citations?user=cL23w-4AAAAJ
-        - name: GitHub
-          url: https://github.com/pmichaillat
-        - name: Substack
-          url: https://pmichaillat.substack.com
-        - name: YouTube
-          url: https://www.youtube.com/@pmichaillat
-        - name: Twitter
-          url: https://x.com/pmichaillat
-        - name: Bluesky
-          url: https://bsky.app/profile/pmichaillat.bsky.social
-
     assets:
-        disableScrollBarStyle: true
+        disableScrollBarStyle: false
     cover:
         hiddenInList: false
         hiddenInSingle: true
     label:
-      text: "Moritz-Maria von Igelfeld"
+      text: "Duong Mai"
       icon: favicon.ico
       iconHeight: 18
 
